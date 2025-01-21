@@ -1,0 +1,56 @@
+/* BASIC STUFF */
+
+#hero {
+    background: url('./assets/jns bg.gif?version=1') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#main {
+    background-color: #111111;
+}
+
+
+
+
+/* FONT STUFF */
+
+.audiowide-regular {
+    font-family: "Audiowide", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.syncopate-regular {
+    font-family: "Syncopate", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.syncopate-bold {
+    font-family: "Syncopate", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fs-small {
+    font-size: 1.5rem;
+}
+
+.fs-medium {
+    font-size: 2rem;
+}
+
+.fs-large {
+    font-size: 3rem;
+}
+
+.fs-title  {
+    font-size: 200px;
+}
+
+.hero-margin {
+    margin-top: 1em;
+    margin-bottom: 10em;
+}
