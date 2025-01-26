@@ -11,6 +11,10 @@
     background-color: #111111;
 }
 
+ul.no-bullets {
+    list-style: none;
+
+}
 
 
 
@@ -34,6 +38,7 @@
     font-style: normal;
 }
 
+
 .fs-small {
     font-size: 1.5rem;
 }
@@ -47,7 +52,7 @@
 }
 
 .fs-title  {
-    font-size: 200px;
+    font-size: 6rem;
 }
 
 .hero-margin {
