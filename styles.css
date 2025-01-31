@@ -7,8 +7,12 @@
     width: 100%;
 }
 
-#main {
+#resume {
     background-color: #111111;
+}
+
+#portfolio {
+    background-color: #222222;
 }
 
 ul.no-bullets {
