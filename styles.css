@@ -1,7 +1,7 @@
 /* BASIC STUFF */
 
 #hero {
-    background: url('./assets/jns bg.gif?version=1') no-repeat center center;
+    background: url('./assets/jns bg.webp') no-repeat center center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -15,10 +15,25 @@
     background-color: #222222;
 }
 
+#aboutme {
+    background-color: #333333;
+}
+
+#contact {
+    background-color: #444444;
+}
+
 ul.no-bullets {
     list-style: none;
 
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Change this to your desired color */
+  border-radius: 25%;    /* Optional: for rounded arrows */
+}
+
 
 
 

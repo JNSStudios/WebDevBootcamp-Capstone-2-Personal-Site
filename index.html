@@ -82,12 +82,12 @@ Timeline
 
     <body>
         <!-- A hero section that provides a brief introduction to you and your background. -->
-        <section id="hero">
-            <div class="px-4 py-5 text-center">
-                <p class="syncopate-bold fs-large hero-margin">This is</p>
-                <div class="col-lg-6 mx-auto py-6">
-                    <p class="lead mb-4 syncopate-regular">programmer, digital artist, nerd</p>
-                </div>
+        <section id="hero" class="d-flex align-items-center justify-content-center text-center">
+            <div class="container">
+            <p class="syncopate-bold fs-large hero-margin pt-4">This is</p>
+            <div class="col-lg-6 mx-auto py-5">
+                <p class="lead mb-4 pb-6 syncopate-regular">programmer, digital artist, nerd</p>
+            </div>
             </div>
         </section>
 
@@ -97,10 +97,10 @@ Timeline
 
             <div class="px-4 mx-5 ">
                 <!-- EDUCATION SECTION -->
-                <p class="audiowide-regular fs-large text-center mb-4 mt-1"><u>Education</u></p>
+                <p class="audiowide-regular fs-large text-center mb-4 mt-1 "><u>Education</u></p>
                 
                 <!--University section-->
-                <div class="row g-5">
+                <div class="row g-5 align-items-center justify-content-center">
                     <div class="col-md-6">
                         <p class="syncopate-regular fs-medium"><b>University of Rochester</b></p>
                         <ul class="syncopate-regular no-bullets" >
@@ -117,7 +117,7 @@ Timeline
 
                 <!--HIGH SCHOOL SECTION-->
 
-                <div class="row g-5 my-5 text-end">
+                <div class="row g-5 my-5 text-end align-items-center justify-content-center">
                     <div class="col-md-6">
                         <img src="https://www.uticaod.com/gcdn/presto/2020/11/14/NOBD/b9506d88-6a0d-4317-a015-834e561d24b4-081507_postcards_lk06.jpg?width=1320&height=862&fit=crop&format=pjpg&auto=webp" class="img-fluid rounded" alt="New Hartford Senior High School">
                     </div>
@@ -131,10 +131,10 @@ Timeline
                         </ul>
                     </div>
                 </div>
-                <p class="audiowide-regular fs-large text-center mb-4 mt-1"><u>Work Experience</u></p>
+                <p class="audiowide-regular fs-large text-center mb-4 mt-1 "><u>Work Experience</u></p>
 
                  <!--Rettner Lab section-->
-                 <div class="row g-5">
+                 <div class="row g-5 align-items-center justify-content-center">
                     <div class="col-md-6">
                         <p class="syncopate-regular fs-medium"><b>Rettner Media Lab</b></p>
                         <p class="syncopate-regular "><b>Supervisor</b> - <u>Univ. of Rochester</u></p>
@@ -153,7 +153,7 @@ Timeline
 
                 <!--C & D SECTION-->
 
-                <div class="row g-5 my-5 text-end">
+                <div class="row g-5 my-5 text-end align-items-center justify-content-center">
                     <div class="col-md-6">
                         <img src="https://imagecdn.realty.com/photos/red/351963324/1.jpg" class="img-fluid rounded" alt="C & D Advertising Office">
                     </div>
@@ -171,7 +171,7 @@ Timeline
                 </div>
 
                 <!--Broadacre Financial section-->
-                <div class="row g-5">
+                <div class="row g-5 align-items-center justify-content-center">
                     <div class="col-md-6 mb-5">
                         <p class="syncopate-regular fs-medium"><b>Broadacre Financial</b></p>
                         <p class="syncopate-regular "><b>Summer Intern</b> - <u>New York City</u></p>
@@ -255,33 +255,103 @@ Timeline
          <section id="portfolio">
             <p class="audiowide-regular fs-title text-center mb-1">Portfolio</p>
 
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                  </div>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner my-5 pb-5">
+              <div class="carousel-item active">
+                <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                    <img src="assets/Channel Logo.png" class="img-fluid rounded-circle" alt="Youtube Channel Profile Picture" size="200px">
+                    </div>
+                    <div class="col-md-8">
+                    <h3 class="audiowide-regular">JNS Studios (YouTube Channel)</h3>
+                    <p class="syncopate-regular">Originally made in 2014, this channel has served as a portfolio for all of my digital media projects, including my early animations, promotional videos, and more recent endeavors like my sister's music videos, video essays, and more. </p>
+                    <a href="https://www.youtube.com/@JNSStudios" class="btn btn-primary">Visit Channel</a>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="img-fluid rounded-circle" alt="GitHub Logo" size="200px">
+                    </div>
+                    <div class="col-md-8">
+                    <h3 class="audiowide-regular">GitHub Page</h3>
+                    <p class="syncopate-regular">My GitHub page serves as a place for all of my coding projects. Most of them are private as they are school-related, but plenty of side-projects are available to view.</p>
+                    <a href="https://github.com/JNSStudios" class="btn btn-primary">Visit GitHub</a>
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                    <img src="assets/papercuts.jpg" class="img-fluid rounded-circle" alt="Papercuts Logo" size="200px">
+                    </div>
+                    <div class="col-md-8">
+                    <h3 class="audiowide-regular">Papercuts Webcomic</h3>
+                    <p class="syncopate-regular">My most recent project. It began as a pilot for an animated series about a family of scribbles, created with help from WRUR-TV. It has since become a webcomic that I run (when I am able), as well as a Campus Times comic during their print editions. </p>
+                    <a href="https://linktr.ee/papercuts.comic" class="btn btn-primary">Visit LinkTree</a>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-
-
-
-
+              </div>
          </section>
 
+        <!-- ABOUT ME SECTION -->
+
+        <section id="about-me" class="d-flex align-items-center justify-content-center text-center my-5">
+            <div class="container">
+            <p class="audiowide-regular fs-title text-center mb-1">About Me</p>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                <img src="assets/IRL PFP.jpg" class="img-fluid rounded-circle" alt="Profile Picture" size="200px">
+                </div>
+                <div class="col-md-8">
+                <p class="syncopate-regular text-start">I'm Joshua Schiavi (JNS), a passionate programmer, digital artist, and self-proclaimed nerd. For as long as I can remember, I've had an interest in technology, and ever since I was 12 I have evolved that interest into a strong background in computer science and digital media. I love working on projects that combine my technical skills with my creative interests. Whether it's developing software, designing graphics, or producing videos, I'm always eager to learn and explore new technologies. In my free time, I enjoy working on personal projects, playing video games, and staying up-to-date with the latest trends in tech and media.</p>
+
+                <p class=" syncopate-regular text-start">I am currently a sophomore at the University of Rochester, where I am studying Computer Science and Digital Media Studies. I am also a member of the university's TV Club and Game Dev Club. I have aspirations to create my own indie game at some point.</p>
+
+                <p class="syncopate-regular"><b>You can find me on these platforms.</b> (Note that, aside from LinkedIn and GitHub, these accounts are just for fun and personal interests)</p>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://bsky.app/profile/jnsstudios.bsky.social" class="mx-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/2319px-Bluesky_Logo.svg.png" alt="BlueSky" class="img-fluid" style="width: 40px; height: 40px;">
+                    </a>
+                    <a href="https://twitter.com/JNS_Studios" class="mx-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png" alt="Twitter" class="img-fluid" style="width: 40px; height: 40px;">
+                    </a>
+                    <a href="https://www.youtube.com/@JNSStudios" class="mx-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube" class="img-fluid" style="width: 40px; height: 40px;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshua-schiavi/" class="mx-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="LinkedIn" class="img-fluid" style="width: 40px; height: 40px;">
+                    </a>
+                    <a href="https://github.com/JNSStudios" class="mx-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="img-fluid rounded-circle" style="width: 40px; height: 40px; filter: invert(100%);">
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+                    <!--COPYTIGHT SECTION-->
+                    <div class="container">
+                        <p class="syncopate-regular text-center mt-5">©2025 JNS. All rights reserved.</p>
 
 
         <!-- BOOTSTRAP SCRIPT IMPORT-->
