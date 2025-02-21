@@ -5,7 +5,11 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
+    image-rendering: auto; /* Ensures smooth scaling */
+    will-change: transform; /* Optimizes animation performance */
+    backface-visibility: hidden; /* Reduces potential flickering */
 }
+
 
 #resume {
     background-color: #111111;
