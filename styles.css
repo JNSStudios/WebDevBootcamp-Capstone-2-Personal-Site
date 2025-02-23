@@ -10,18 +10,6 @@
     backface-visibility: hidden; /* Reduces potential flickering */
 }
 
-@media (max-width: 768px) {
-    #hero {
-        background: url('./assets/jns bg OP.gif') no-repeat center center;
-        background-size: cover;
-        height: 100vh;
-        width: 100%;
-        image-rendering: auto; /* Ensures smooth scaling */
-        will-change: transform; /* Optimizes animation performance */
-        backface-visibility: hidden; /* Reduces potential flickering */
-    }
-}
-
 
 #resume {
     background-color: #111111;
@@ -82,6 +70,10 @@ ul.no-bullets {
     font-size: 2rem;
 }
 
+.fs-list {
+    font-size: 1rem;
+}
+
 .fs-large {
     font-size: 3rem;
 }
@@ -93,4 +85,67 @@ ul.no-bullets {
 .hero-margin {
     margin-top: 1em;
     margin-bottom: 10em;
+}
+
+ul.mobile-list{
+    padding: 1;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        background: url('./assets/jns bg OP.gif') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        image-rendering: auto; /* Ensures smooth scaling */
+        will-change: transform; /* Optimizes animation performance */
+        backface-visibility: hidden; /* Reduces potential flickering */
+    }
+
+    .hero-margin {
+        margin-top: 4em;
+        margin-bottom: 6em;
+    }
+
+    .fs-small {
+        font-size: 0.75rem;
+    }
+    
+    .fs-medium {
+        font-size: 1rem;
+    }
+    
+    .fs-large {
+        font-size: 1.5rem;
+    }
+    
+    .fs-title  {
+        font-size: 2.75rem;
+    }
+
+    .audiowide-regular {
+        font-family: "Audiowide", serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    .syncopate-regular {
+        font-family: "Syncopate", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .syncopate-bold {
+        font-family: "Syncopate", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    ul.mobile-list{
+        padding: 0;
+    }
+
+    .fs-list {
+        font-size: 0.75rem;
+    }
 }
